@@ -75,7 +75,7 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 
 <font size=0.5>
     
-   
+    
 | <sup>Model</sup> | <sup>Checkpoint</sup> | <sup>Paper</sup> |<sup>MT-Bench</sup> | <sup>AlpacaEval</sup>  | <sup>GSM8k</sup> | <sup>HumanEval</sup>  | <sup>Demo</sup>  | <sup>License</sup>|
 | ----- |------| ---- |------|-------| ----- | ----- | ----- | ----- | 
 | <sup>**WizardLM-70B-V1.0**</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-70B-V1.0" target="_blank">HF Link</a> </sup>|<sup>📃**Coming Soon**</sup>| <sup>**7.78**</sup> | <sup>**92.91%**</sup>	 |<sup>**77.6%**</sup>	 | <sup>   **50.6**</sup>| |<sup> <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 License </a></sup> |
@@ -125,7 +125,7 @@ Please cite the paper if you refer to our model or code or data or paper from Wi
 ```
 
 
-❗To commen concern about dataset:
+⚠️To commen concern about dataset:
 
 Recently, there have been clear changes in the open-source policy and regulations of our overall organization's code, data, and models.
 Despite this, we have still worked hard to obtain opening the weights of the model first, but the data involves stricter auditing and is in review with our legal team .
@@ -134,7 +134,7 @@ Thank you for your understanding.
 
 ## Hiring
 
-- &#x1F4E3; We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
+- 📣 We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
 
 <!-- Although on our **complexity-balanced test set**, **WizardLM-7B has more cases that are preferred by human labelers than ChatGPT** in the high-complexity instructions (difficulty level >= 8), it still lags behind ChatGPT on the entire test set, and we also consider WizardLM to still be in a **baby state**. This repository will **continue to improve WizardLM**, train on larger scales, add more training data, and innovate more advanced large-model training methods. -->
 
@@ -164,7 +164,7 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 ```
 
 
-**CoT Version:** （❗For the **simple** math questions, we do NOT recommend to use the CoT prompt.） 
+**CoT Version:** (⚠️For the **simple** math questions, we do NOT recommend to use the CoT prompt.) 
 
 
 ```
@@ -246,3 +246,5 @@ The resources, including code, data, and model weights, associated with this pro
 
 [![Star History Chart](https://api.star-history.com/svg?repos=nlpxucan/WizardLM&type=Timeline)](https://star-history.com/#nlpxucan/WizardLM&Timeline)
 
+
+Related project: [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
